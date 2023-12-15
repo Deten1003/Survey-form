@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(147, 205, 255);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mooli', sans-serif;
+}
+#title{
+    padding: 15px;
+    text-align: center;
+    color: brown;
+    border-bottom: 10px solid salmon;
+}
+#description{
+    margin: 20px;
+    text-align: center;
+    font-size: x-large;
+    border: 10px solid gold;
+    border-radius: 100px;
+}
+#name-label{
+    color: blue;
+    font-weight: bolder;
+   margin: 20px;
+   font-size: larger;
+}
+#email-label{
+    color: purple;
+    font-weight: bolder;
+    margin: 20px;
+    font-size: larger;
+}
+#number-label{
+color: blueviolet;
+font-weight: bolder;
+margin: 20px;
+font-size: larger;
+}
+#dropdown{
+    background-color: aquamarine;
+    font-size: larger;
+    margin: 10px;
+    padding: 5px;
+}
+#maybe{
+    color: blanchedalmond;
+}
+h2{
+    color: blueviolet;
+    border-top: 3px solid grey;
+    padding: 30px;
+    text-align: center;
+}
+input{
+    background-color: antiquewhite;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+}
+label{
+    font-size: x-large ;
+    padding: 20px;
+    font-weight: 600px;
+    text-align: ;
+    color: olivedrab;
+    font-weight: bolder;
+    
+}
+textarea{
+    background-color: rgb(225, 255, 255);
+}
+#submit{
+    padding: 10px;
+    margin: 20px;
+}

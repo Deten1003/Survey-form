@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Survey form</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet" >
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<h1 id='title'> Fun Form</h1>
+<p id='description'>😊Thank you for choosing Fun Form😊</p>
+<form id='survey-form'>
+  <label id="name-label">Name-</label>
+<input id='name' type='text' required placeholder=' Write your name!'>
+<br>
+<label id="email-label">Email-</label>
+<input id='email' type='email' required placeholder='Write your email!'>
+<br>
+<label id="number-label">Number-</label>
+<input id='number' type='number' min='7'
+max='8' placeholder='Num'>
+<br>
+<select id='dropdown'>
+  <option>🧑🏽Male🧑🏽</option>
+  <option>👧🏽Female👧🏽</option>
+  </select>
+ <h2>Would you recommend this to family and freind?😁</h2>
+  <br>
+ 
+  <input type='radio' value='Yes' name='recommendation' id="sure">
+  <label>Ofcourse</label>
+  <br> 
+  
+  <input type='radio' value='No' 
+  name='recommendation' id="nothanks">
+  <label>Never</label>
+  <br>
+  <h2>What do you expect after you submit?</h2>
+ <input type='checkbox' value='question'>
+ <label>Good quality</label>
+ <br>
+ <input type='checkbox' value='question'>
+ <label>Fast loading</label>
+ <br>
+ 
+ <input type='checkbox' value='question'>
+ <label>Kid friendly pictures</label>
+ <br>
+ <input type='checkbox' value='question'>
+ <label>High security</label>
+ <br>
+
+ 
+<h2>Tell us what you think we can update</h2>
+<textarea
+cols="50"
+rows="10px"></textarea> 
+  <br>
+   <input id='submit' type='submit'>
+  </form>
+ 
+</body>
+
+</html>
